@@ -1,0 +1,62 @@
+body {
+  background-color: #272727; }
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none; }
+
+.container {
+  max-width: 750px;
+  margin: 0px auto;
+  margin-bottom: 80px; }
+
+.btn-outline-primary {
+  font-family: "Inconsolata", monospace;
+  color: #FFD766;
+  border-color: #009FB7;
+  margin-right: 5px; }
+  .btn-outline-primary:hover {
+    color: #FFD766 !important;
+    border-color: #009FB7 !important;
+    background-color: #4E4E4E !important; }
+  .btn-outline-primary:focus {
+    color: #FFD766 !important; }
+  .btn-outline-primary:hover {
+    color: #FFD766;
+    border-color: #009FB7; }
+
+.header {
+  width: 700px;
+  margin-top: 20px; }
+  .header h1 {
+    color: #FFD766;
+    font-family: "VT323", monospace;
+    font-size: 4.5em; }
+
+#results {
+  margin-top: 30px; }
+
+.result {
+  margin-top: 10px;
+  background-color: #4E4E4E;
+  padding: 10px;
+  border-style: solid;
+  border-color: #FFD766;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; }
+
+.logo {
+  width: 60px;
+  border-radius: 30%;
+  border-style: solid;
+  border-color: #272727; }
+
+p {
+  padding-top: 18px;
+  color: #272727;
+  text-decoration: none; }
+
+.hidden {
+  display: none; }
+
+/*# sourceMappingURL=twitch.css.map */
