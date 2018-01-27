@@ -1,0 +1,68 @@
+$black: #272727
+$yellow: #FFD766
+$blue: #009FB7
+$grey: #4E4E4E
+$white: #EFF1F3
+
+body
+    background-color: $black
+
+a:hover, a:visited, a:link, a:active
+    text-decoration: none
+
+.container
+    max-width: 750px
+    margin: 0px auto
+    margin-bottom: 80px
+
+.btn-outline-primary
+    font-family: 'Inconsolata', monospace
+    color: $yellow
+    border-color: $blue
+    margin-right: 5px
+
+    &:hover
+        color: $yellow !important
+        border-color: $blue !important
+        background-color: $grey !important
+    &:focus
+        color: $yellow !important
+    &:hover
+        color: $yellow
+        border-color: $blue
+
+.header
+    width: 700px
+    margin-top: 20px
+    h1
+        color: $yellow
+        font-family: 'VT323', monospace
+        font-size: 4.5em
+
+#results
+    margin-top: 30px
+
+.result
+    margin-top: 10px
+    background-color: $grey
+    padding: 10px
+    border-style: solid
+    border-color: $yellow
+    overflow: hidden
+    white-space: nowrap
+    text-overflow: ellipsis
+
+.logo
+    width: 60px
+    border-radius: 30%
+    border-style: solid
+    border-color: $black
+
+p
+    padding-top: 18px
+    color: $black
+    text-decoration: none
+
+.hidden
+    display: none
+
